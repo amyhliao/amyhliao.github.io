@@ -1,0 +1,151 @@
+blog-index.css
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background-color:#FFF2E9;
+}
+
+#header {
+  position:relative;
+  top:-10px;
+  left:-10px;
+  width: 100%;
+  height: 40px;
+  background-color: #FFF2E9;
+  padding:10px;
+}
+
+#header section{
+  width: 920px;
+  margin: 0 auto;
+}
+
+#name {
+  display:block;
+  float:left;
+  padding-top: 5em;
+  padding-right:75px;
+}
+
+#name a{
+  text-decoration: none;
+  color:black;
+  font-size: 2em;
+  font-weight:300;
+}
+
+section ul {
+  position: relative;
+  top:-10px;
+  display:inline-block;
+  list-style-type: none;
+}
+
+li {
+  display:inline;
+  padding-right:40px;
+  margin-left: 45px;
+}
+
+.pagelink {
+  display:inline;
+  color:black;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.socialinks {
+  display: inline-block;
+  float:right;
+  width: 25px;
+  height: 25px;
+  margin-left:10px;
+  padding-top:5px;
+}
+
+.page-header {
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.page-title{
+  border-bottom: 1px solid #d9dcdd;
+  clear: both;
+  color: #000;
+  font: 900 200%/1 "Lato", sans-serif;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 92%;
+  padding: 15px 0 16px 0;
+  word-wrap: break-word;
+}
+
+body {
+    color: #505050;
+  line-height: 1.625;
+}
+
+.site-content {
+  margin: 0 auto;
+  max-width: 1120px;
+  width: 92%;
+  word-wrap: break-word;
+
+.content-area {
+  position: relative;
+  width: 100%;
+}
+
+.entry {
+  border-bottom: 1px solid #d9dcdd;
+  clear: both;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+#footer{
+  position: fixed;
+  bottom:0;
+  right:0;
+  left:0px;
+  width: 100%;
+  height: 80px;
+  background-color: #45FF9F;
+}
+
+#footer div {
+  width:920px;
+  margin:0 auto;
+}
+
+#footer span {
+  display:block;
+  float:left;
+  color:black;
+  font-size: 1em;
+  margin-top: 10px;
+}
+#footer ul{
+  display:block;
+  float:right;
+  margin-top:10px;
+}
+
+#footer li {
+  display: block;
+  float:left;
+  padding-right:10px;
+}
+
+#footer a {
+  text-decoration: none;
+  color:black;
+  font-size: 1em;
+  padding-left: 10px;
+}
+
