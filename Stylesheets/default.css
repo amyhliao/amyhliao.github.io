@@ -66,7 +66,7 @@ body {
 
 .pagelink {
   display: inline;
-  color: #464646;;
+  color: #464646;
   text-decoration: none;
   font-size: 1em;
   padding-right: 15px;
@@ -75,6 +75,7 @@ body {
 .socialinks {
   display: inline-block;
   float: right;
+  color: #464646;
   width: 25px;
   height: 25px;
   margin-right: 20px;
@@ -86,7 +87,7 @@ body {
   position: relative;
   width: 920px;
   margin: 0 auto;
-   top: 5em;
+  top: 5em;
 }
 
 /*.picture {
@@ -101,7 +102,7 @@ body {
   height: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  left: 1em;
+  padding-left: 25px;
 }
 
 .linkheader p {
@@ -109,7 +110,7 @@ body {
   text-align: left;
   font-size: 18px;
   font-weight: 200;
-  padding: 0px;
+  border-bottom: 2px solid #d4d4d4;
 }
 
 .linkheader a {
@@ -121,9 +122,10 @@ body {
 .viewing {
   display: block;
   text-align: right;
-  font-size: 18px;
+  font-size: 15px;
   /*font-weight: 200;*/
-  padding: 50px;
+  padding-top: -10px;
+  padding-right: 30px;
 }
 
 /*.spacer a {
@@ -138,16 +140,17 @@ body {
   display: block;
   float: left;
   width:300px;
-  height:320px;
+  height:220px;
   background-color: white;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 160px;
+  margin-top: 80px;
+  margin-right: -60px;
+  margin-left: -10px;
+  margin-bottom: 150px;
 }
 
-.snippet.last {
+/* .snippet.last {
   margin-right: 0;
-}
+} */
 
 .snippet span {
   display: block;
@@ -155,6 +158,8 @@ body {
   font-size: 1em;
   text-align: center;
   padding-top:10px;
+/*   padding-left: -40px;
+  padding-right: -20px; */
 }
 
 .snippet-picture {
@@ -162,7 +167,7 @@ body {
   margin: 0 auto;
   width:200px;
   height: 200px;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 .blog{
@@ -172,14 +177,15 @@ body {
   width:300px;
   height:320px;
   /*background-color: white;*/
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 160px;
+  margin-top: 80px;
+  margin-right: -60px;
+  margin-left: -20px;
+  margin-bottom: 40px;
 }
 
-.blog.last {
+/* .blog.last {
   margin-right: 0;
-}
+} */
 
 .blog a {
   display: block;
@@ -204,14 +210,15 @@ body {
   width:300px;
   height:320px;
   background-color: white;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 160px;
+  margin-top: 80px;
+  margin-right: -60px;
+  margin-left: -10px;
+  margin-bottom: 5px;
 }
 
-.kitchen.last {
+/* .kitchen.last {
   margin-right: 0;
-}
+} */
 
 .kitchen a {
   display: block;
@@ -258,13 +265,14 @@ body {
   color:white;
   font-size: 1em;
   margin-top: 15px;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 #footer ul{
   display: block;
   float: right;
   margin-top: 10px;
+
 }
 
 #footer li {
