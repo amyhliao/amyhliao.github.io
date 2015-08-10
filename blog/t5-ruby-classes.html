@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+  <title>Amy Liao - Technical Blog: Ruby Classes</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/blog-template.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+  <body>
+      <div id="header">
+      <section>
+        <span id="name"><a href="index.html">Amy Liao</a></span>
+        <ul>
+          <li><a class="pagelink" href="#">About Me</a></li>
+          <li><a class="pagelink" href="#">Projects</a></li>
+          <li><a class="pagelink" href="blog">Blog</a></li>
+          <li><a class="pagelink" href="mailto:amyhliao88@gmail.com">Contact</a></li>
+        </ul>
+
+        <a class ="socialinks" href="https://plus.google.com/u/0/102257175572058320396/about"><img class="socialinks" src="/imgs/google-plus.png" alt="Google+"></a><!-- Google+-->
+        <a class ="socialinks" href="https://twitter.com/amyhliao"><img class="socialinks" src="/imgs/twitter.png" alt="Twitter Logo"></a><!-- Twitter-->
+        <a class ="socialinks" href="www.linkedin.com/in/amyhliao"><img class="socialinks" src="/imgs/linkedin.png" alt="LinkedIn Logo"></a>
+        <!-- LinkedIn-->
+      </section>
+
+      <main>
+  <h1>Technical Blog</h1>
+  <h2>Ruby Classes</h2>
+  <h4>Sunday, August 8, 2015</h4>
+
+  <section>
+    <h4>Definition and Purpose:</h4>
+    <p>
+      Let’s just dive right into classes in this blog, shall we? To start, classes are first-class objects and each is an instance of class Class. Creating an object of a type class and assigning it to a constant define a new class. When newly assigned class is called to create a new object, the new class method in class is run and calls the new object’s initialized method.
+    </p>
+    <p>
+      The main purpose of a class method is to send a message to the object of the class rather than to one of the class's instances. Some operations pertaining to a class can't be performed by individual instances of that class, like when using new. Messages cannot be sent to the class until an individual instance is created. The job of creating a new object generally belongs to the class. By creating a new object, there will be a method that can be accessed through the class object. A class object has its own methods, its own state, its own identity, and it doesn't share these things with instances of itself.
+    </p>
+    <h4>Definition and Purpose:</h4>
+    <p>
+      Objects are instances of the class. Objects are created in Ruby by using the method ‘new’ of the class.
+    </p>
+    <p>
+      aSong = Song.new
+    </p>
+    <p>
+      Here, ‘asong’ is the name of an object. The object name is followed by the equal to sign (=) followed by the class name. Then, the dot operator and the keyword new will follow.
+    </p>
+    <h4>Create Ruby Objects:</h4>
+    <p>
+      Parameters can be passed to the method new and they can be used to initialize class variables. When the new method is declared with parameters, the method initialize will be declared at the time of the class creation. The initialize method is a special type of method, which will be executed when the new method of the class is called with parameters.
+    </p>
+      Here is the example to create initialize method:
+      <img src = "../imgs/Example_class.png" alt = "Example of class">
+    </p>
+    <p>
+      When ‘Song.new’ is called to create a new ‘Song’ object, Ruby creates an uninitialized object and then calls that object's initialize method, passing in any parameters that were passed to ‘new’. This gives a chance to set up the object's state.
+    </p>
+     <p>
+      Each object represents its own song, so each Song objects will need to carry around its own song name, artist, and duration. This means we need to store these values as instance variables within the object. In the example, the parameter name is assigned to the instance variable ‘@name’, artist is assigned to ‘@artist’, and duration is assigned to ‘@duration’.
+    </p>
+    <p>
+      Objects can be created by entering the following:
+    </p>
+    <p>
+      aSong = Song.new ("Bicylops", "Fleck", 260)
+    </p>
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
