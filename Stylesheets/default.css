@@ -30,22 +30,16 @@ body {
   left: 0px;
   right: 10px;
   width: 100%;
-  height: 3em;
+  height: 3.5em;
   /*background-color: #6fbf98;*/
   background-color: white;
   padding: 20px;
   border-bottom: 2px solid #d4d4d4;
 }
 
-/*#header section{
-  width: 100%;
-  margin: 0 auto;
-}*/
-
 #name {
   display:block;
   float:left;
-  padding-top: .5em;
   padding-right: 120px;
   padding-left: 25px;
 }
@@ -55,7 +49,6 @@ body {
   text-decoration: none;
   color: #464646;
   font-size: 3em;
-  font-weight:100;
 }
 
 /*section ul {
@@ -76,8 +69,8 @@ body {
   display: inline;
   color: #464646;
   text-decoration: none;
-  font-size: 1em;
-  padding-right: 15px;
+  font-size: 1.5em;
+  padding-right: 25px;
 }
 
 .socialinks {
@@ -114,10 +107,10 @@ body {
 }
 
 .linkheader p {
+  font-family: 'Signika', sans-serif;
   display: block;
   text-align: left;
-  font-size: 18px;
-  font-weight: 200;
+  font-size: 24px;
   border-bottom: 2px solid #d4d4d4;
 }
 
