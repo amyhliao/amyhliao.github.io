@@ -79,11 +79,10 @@ body {
   top: 5em;
 }
 
-/* .picture {
-  width: 80%;
-  height: 60%
+.picture {
+  padding-left: 60px;
 }
- */
+
 .linkheader {
   position: relative;
   display: block;
