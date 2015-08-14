@@ -4,25 +4,12 @@ default.css
   font-family: 'Signika', sans-serif;
 }
 
-a:hover {
-  color: #6fbf98;
-  background-color: white;
-  text-decoration: underline;
-}
-
 body {
   background-color: white;
   display: block;
   margin: 8px;
-  /*font-family: "Brandon Grotesque Medium";*/
   color: #464646;
 }
-
-/*a:hover {
-  color: #6fbf98;
-  background-color: white;
-  text-decoration: underline;
-}*/
 
 #navBar {
   position:absolute;
@@ -49,6 +36,7 @@ body {
   text-decoration: none;
   color: #464646;
   font-size: 3em;
+  padding-right: 30px
 }
 
 /*section ul {
@@ -69,8 +57,8 @@ body {
   display: inline;
   color: #464646;
   text-decoration: none;
-  font-size: 1.5em;
-  padding-right: 25px;
+  font-size: 18px;
+  padding-right: 30px;
 }
 
 .socialinks {
@@ -91,11 +79,11 @@ body {
   top: 5em;
 }
 
-/*.picture {
+/* .picture {
   width: 80%;
   height: 60%
-}*/
-
+}
+ */
 .linkheader {
   position: relative;
   display: block;
@@ -110,7 +98,7 @@ body {
   font-family: 'Signika', sans-serif;
   display: block;
   text-align: left;
-  font-size: 24px;
+  font-size: 16px;
   border-bottom: 2px solid #d4d4d4;
 }
 
@@ -123,18 +111,11 @@ body {
 .viewing {
   display: block;
   text-align: right;
-  font-size: 15px;
-  /*font-weight: 200;*/
-  padding-top: -10px;
+  font-size: 14px;
+  font-family: 'Signika', sans-serif;
+  /* padding-top: -200px; */
   padding-right: 30px;
 }
-
-/*.spacer a {
-  font-size: 75%;
-  display: table-cell;
-  vertical-align: left;
-  font-family: "Lato", sans-serif;
-}*/
 
 .snippet{
   position: relative;
@@ -148,10 +129,6 @@ body {
   margin-left: -10px;
   margin-bottom: 150px;
 }
-
-/* .snippet.last {
-  margin-right: 0;
-} */
 
 .snippet span {
   display: block;
@@ -184,10 +161,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* .blog.last {
-  margin-right: 0;
-} */
-
 .blog a {
   display: block;
   color:#464646;
@@ -216,10 +189,6 @@ body {
   margin-left: -10px;
   margin-bottom: 5px;
 }
-
-/* .kitchen.last {
-  margin-right: 0;
-} */
 
 .kitchen a {
   display: block;
@@ -264,7 +233,8 @@ body {
   display:block;
   float:left;
   color:white;
-  font-size: 1em;
+  font-size: 12px;
+  font-family: 'Signika', sans-serif;
   margin-top: 15px;
   padding-left: 15px;
 }
@@ -273,13 +243,18 @@ body {
   display: block;
   float: right;
   margin-top: 30px;
-
 }
 
 #footer li {
   display: block;
   float:left;
   padding-right:10px;
+}
+
+a:hover {
+  color: #6fbf98;
+  background-color: white;
+  text-decoration: underline;
 }
 
 #footer a {
