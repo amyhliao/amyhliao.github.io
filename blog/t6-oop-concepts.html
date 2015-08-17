@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amy Liao - Variable Scope</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/blog-template.css">
+    <link href='http://fonts.googleapis.com/css?family=Signika:700|Pacifico' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+     <div id="navBar">
+       <span id="name">
+          <a href="index.html">Amy Liao</a>
+       </span>
+        <ul>
+          <li><a class="pagelink" href="/about-me.html">About Me</a></li>
+          <li><a class="pagelink" href="#">Projects</a></li>
+          <li><a class="pagelink" href="/blog-index.html">Blog</a></li>
+          <li><a class="pagelink" href="/resume.html">Résumé</a></li>
+          <li><a class="pagelink"href="mailto:amyhliao88@gmail.com">Contact</a></li>
+        </ul>
+
+  <main class="title">
+  <h2>Variable Scope</h2>
+  <h3>Technical Blog</h3>
+  <h4>Sunday, August 16, 2015</h4>
+
+  <section class="body">
+    <p>
+      The following are the different kinds of variables in Ruby:
+    </p>
+    <p>
+      <img src = "../imgs/variable_scope.png" alt = "variable scope">
+    </p>
+    </p>
+    <h4>Global Variables</h4>
+    <p>
+      Global variables in Ruby are accessible from anywhere in the Ruby program, regardless of where they are declared. Global variable names are prefixed with a dollar sign ($). For example:
+    </p>
+    <p>
+      $welcome = "Hello there!"
+    </p>
+    <p>
+      Use of global variables is strongly discouraged. The problem with global variables is that, not only are they visible anywhere in the code for a program, they can also be changed from anywhere in the application. This can make tracking bugs difficult.
+    </p>
+    <h4>Instance Variables</h4>
+    <p>
+      Instance variables are similar to Class variables except that their values are local to specific instances of an object. Other objects of the same class have their own local copies of the variable which are independent of changes made in any other objects.
+    </p>
+    <p>
+      Instance variables are declared in Ruby by prefixing the variable name with a single @ sign:
+    </p>
+    <p>
+      @total = 10
+    </p>
+    <h4>Local Variables</h4>
+    <p>
+      Local variables are local to the code construct in which they are declared. For example, a local variable declared in a method or within a loop cannot be accessed outside of that loop or method. Local variable names must begin with either an underscore or a lower case letter. For example:
+    </p>
+    <p>
+      total = 10
+    </p>
+    <p>
+      _Total = 20
+    </p>
+    <h4>Constant Scope</h4>
+    <p>
+      Ruby constants are values which, once assigned a value, should not be changed. Constants declared within a class or module are available anywhere within the context of that class or module. Constants declared outside of a class or module are assigned global scope.
+    </p>
+    <h4>Class Variables</h4>
+    <p>
+      A class variable is a variable that is shared amongst all instances of a class. This means that only one variable value exists for all objects instantiated from this class. It also means that if one object instance changes the value of the variable, that new value will essentially change for all other object instances.
+    </p>
+    <p>
+      Class variables are declared by prefixing the variable name with two @ characters (@@). Class variables must be initialized at creation time. For example:
+    </p>
+    <p>
+      @@total = 20
+    </p>
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
+
+      <div id="footer">
+        <div>
+          <span>Copyright &copy;2015 Amy Liao Design. All Rights Reserved.</span>
+
+          <a class ="socialinks" href="https://plus.google.com/u/0/102257175572058320396/about"><img class="socialinks" src="/imgs/google-plus.png" alt="Google+"></a><!-- Google+-->
+          <a class ="socialinks" href="https://https://github.com/amyhliao"><img class="socialinks" src="/imgs/github.png" alt="GitHub"></a><!-- GitHub-->
+          <a class ="socialinks" href="https://twitter.com/amyhliao"><img class="socialinks" src="/imgs/twitter.png" alt="Twitter"></a><!-- Twitter-->
+          <a class ="socialinks" href="www.linkedin.com/in/amyhliao"><img class="socialinks" src="/imgs/linkedin.png" alt="LinkedIn"></a>
+        <!-- LinkedIn-->
+     </div>
+    </div>
+  </body>
+</html>
