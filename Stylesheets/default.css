@@ -18,7 +18,6 @@ body {
   right: 10px;
   width: 100%;
   height: 3.5em;
-  /*background-color: #6fbf98;*/
   background-color: white;
   padding: 20px;
   border-bottom: 2px solid #d4d4d4;
@@ -38,13 +37,6 @@ body {
   font-size: 3em;
   padding-right: 30px
 }
-
-/*section ul {
-  position: relative;
-  top: -10px;
-  display: inline-block;
-  list-style-type: none;
-}*/
 
 #navBar li {
   display:inline;
@@ -69,7 +61,6 @@ body {
   height: 40px;
   margin-right: 20px;
   margin-top: -15px;
-
 }
 
 .small-content {
@@ -80,7 +71,8 @@ body {
 }
 
 .picture {
-  padding-left: 60px;
+  text-align: center;
+  border: 1.5px solid #6fbf98;
 }
 
 .linkheader {
@@ -97,8 +89,8 @@ body {
   font-family: 'Signika', sans-serif;
   display: block;
   text-align: left;
-  font-size: 16px;
-  border-bottom: 2px solid #d4d4d4;
+  font-size: 20px;
+  border-bottom: 1.5px solid #464646;
 }
 
 .linkheader a {
@@ -145,6 +137,7 @@ body {
   width:200px;
   height: 200px;
   padding-top: 10px;
+  border: 2px solid #6fbf98;
 }
 
 .blog{
@@ -174,6 +167,7 @@ body {
   width:200px;
   height: 200px;
   padding-top:10px;
+  border: 1.5px solid #6fbf98;
 }
 
 .kitchen{
@@ -203,6 +197,7 @@ body {
   width:200px;
   height: 200px;
   padding-top:10px;
+  border: 1.5px solid #6fbf98;
 }
 
 .blog-soon {
@@ -211,9 +206,10 @@ body {
   width:200px;
   height: 200px;
   padding-top:10px;
+  border: 1.5px solid #6fbf98;
 }
 
-#footer{
+#footer {
   position: fixed;
   bottom: 0;
   right: 0;
