@@ -161,52 +161,49 @@ body {
   padding-top:10px;
 }
 
-.blog-picture {
-  display:block;
-  margin: 0 auto;
-  width:200px;
-  height: 200px;
-  padding-top:10px;
-  border: 1.5px solid #6fbf98;
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
 }
 
-.kitchen{
-  position: relative;
-  display: block;
-  float: left;
-  width:300px;
-  height:320px;
-  background-color: white;
-  margin-top: 80px;
-  margin-right: -60px;
-  margin-left: -10px;
-  margin-bottom: 5px;
+.tableblog {
+    margin: auto;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    padding-left: 2em;
+    border-spacing: 6px;
+    color: #464646;
+    font-family: 'Signika', sans-serif;
 }
 
-.kitchen a {
-  display: block;
-  color:#464646;
-  font-size: 1em;
-  text-align: center;
-  padding-top:10px;
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
 }
 
-.kitchen-picture {
-  display:block;
-  margin: 0 auto;
-  width:200px;
-  height: 200px;
-  padding-top:10px;
-  border: 1.5px solid #6fbf98;
+.tableblog td {
+    border: 2px solid #6fbf98;
+    width: 460px;
+    height: 138px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
 }
 
-.blog-soon {
-  display:block;
-  margin: 0 auto;
-  width:200px;
-  height: 200px;
-  padding-top:10px;
-  border: 1.5px solid #6fbf98;
+.tableblog a {
+    display: block;
+    text-decoration: none;
+    padding: 40px;
+    color: #464646;
+    font-family: 'Signika', sans-serif;
+}
+
+.small {
+    font-size: 14px;
+    color: #464646;
+    font-family: 'Signika', sans-serif;
 }
 
 #footer {
