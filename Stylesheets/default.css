@@ -14,10 +14,8 @@ body {
 #navBar {
   position:absolute;
   top: 0px;
-  left: 0px;
-  right: 10px;
-  width: 100%;
-  height: 3.5em;
+  width: 95%;
+  height: 4em;
   background-color: white;
   padding: 20px;
   border-bottom: 2px solid #d4d4d4;
@@ -26,15 +24,16 @@ body {
 #name {
   display:block;
   float:left;
-  padding-right: 120px;
-  padding-left: 25px;
+  padding-top: .5em;
+  padding-right: 170px;
+  padding-left: 80px;
 }
 
 #name a{
   font-family: 'Pacifico', cursive;
   text-decoration: none;
   color: #464646;
-  font-size: 3em;
+  font-size: 2em;
   padding-right: 30px
 }
 
