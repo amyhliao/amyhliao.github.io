@@ -41,7 +41,7 @@ body {
 #navBar li {
   display:inline;
   padding-right:30px;
-  <!--margin-left: 30px;-->
+/*  <!--margin-left: 30px;-->*/
 }
 
 .pagelink {
@@ -71,8 +71,11 @@ body {
 }
 
 .picture {
-  text-align: center;
-  border: 1.5px solid #6fbf98;
+/*  text-align: center;
+  border: 1.5px solid #6fbf98;*/
+  margin: auto;
+  padding-left: 3em;
+  padding-right: -3em;
 }
 
 .linkheader {
