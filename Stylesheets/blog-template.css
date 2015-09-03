@@ -37,7 +37,7 @@ body {
 #navBar li {
   display:inline;
   padding-right:30px;
-  <!--margin-left: 30px;-->
+  list-style-type: none;
 }
 
 .pagelink {
@@ -53,13 +53,25 @@ body {
     text-align: left;
     font-family: 'Signika', sans-serif;
     color: #464646;
-/*     margin-bottom: 10px; */
 }
 
-.title h2{
+.title h1{
     text-align: left;
-    font-family: 'Signika', sans-serif;
+    padding-top: 90px;
+    padding-left: 15%;
     color: #6fbf98;
+}
+
+.title h3{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+
+.title h4{
+    text-align: left;
+    margin-top: -10px;
+    padding-left: 15%;
 }
 
 .body {
@@ -67,6 +79,19 @@ body {
     margin-left: 15%;
     margin-top: 0;
     font-family: 'Signika', sans-serif;
+}
+
+.title ul{
+  display: block;
+  list-style-type: ;
+  list-style-type: circle;
+}
+
+.body h3{
+  text-decoration: underline;
+  margin-top: 25px;
+  margin-left: -15%;
+  margin-bottom: -5px;
 }
 
 .socialinks {
@@ -78,7 +103,6 @@ body {
   margin-right: 20px;
   margin-top: -15px;
 }
-
 
 #footer {
   position: fixed;
