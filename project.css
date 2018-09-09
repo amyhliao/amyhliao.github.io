@@ -1,0 +1,154 @@
+@font-face {
+font-family: 'Maax Regular';
+src: 	url('font/Maax-Sans-Regular.eot');
+src: 	url('font/Maax-Sans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Regular.woff2') format('woff2'),
+		url('font/Maax-Sans-Regular.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Maax Medium';
+src: 	url('font/Maax-Sans-Medium.eot');
+src: 	url('font/Maax-Sans-Medium.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Medium.woff2') format('woff2'),
+		url('font/Maax-Sans-Medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Maax Bold';
+src: 	url('font/Maax-Sans-Bold.eot');
+src: 	url('font/Maax-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Bold.woff2') format('woff2'),
+		url('font/Maax-Sans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Lydian Bold Italic';
+src: 	url('font/Lydian_Bold_Italic.ttf');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Lydian Italic';
+src: 	url('font/Lydian_Italic.ttf');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'GT America Extended';
+src: 	url('font/GT-America-Extended.otf') format('embedded-opentype'),
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+h2 {
+	font: normal normal 700 2rem/180% 'Maax Bold';
+	color: rgba(75, 75, 75, 1);
+}
+
+h3 {
+	font: normal normal 300 1.4rem/190% 'Maax Medium';
+	margin: 0;
+	color: rgba(75, 75, 75, 1);
+}
+
+h4 {
+	font: normal normal 300 .9rem/190% 'Maax Regular';
+	margin: 0 0 20px 0;
+}
+
+h5 {
+	font: normal normal 300 1rem/190% 'Maax Medium';
+	margin: 0;
+	color: rgba(75, 75, 75, 1);
+}
+
+article img {
+	width: 100%;
+	margin: 20px 0;
+	box-shadow: 0 25px 65px 5px rgba(201, 186, 181, .5);
+}
+
+main {
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main > *:not(hr) {
+	max-width: 1200px;
+}
+
+main header {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 100px 0;
+	padding: 0 100px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	transition: all .3s ease-in-out;
+}
+
+main header > p {
+	max-width: 500px;
+	width: 100%;
+	font: normal normal 300 .9rem/190% 'Maax Regular';
+	color: rgba(130, 130, 130, 1);
+	text-align: justify;
+	margin: 0 0 30px 0;
+}
+
+main header section:nth-child(1),
+main header section {
+	display: flex;
+	flex-flow: row nowrap;
+	flex: 1 1 100%;
+}
+
+main header section > div:nth-child(1) {
+	margin: 0 50px 0 0;
+}
+
+main article,
+main article:hover {
+	width: 100%;
+	box-shadow: none;
+	display: block;
+	box-sizing: border-box;
+	padding: 0 100px;
+}
+
+main article p {
+	font: normal normal 300 .9rem/190% 'Maax Regular';
+	color: rgba(130, 130, 130, 1);
+}
+
+@media only screen and (max-width: 700px) {
+	main header {
+		margin: 100px 0 50px;
+		padding: 0;
+	}
+
+	main article,
+	main article:hover {
+		padding: 0;
+	}
+
+}

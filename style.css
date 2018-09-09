@@ -1,0 +1,319 @@
+@font-face {
+font-family: 'Maax Regular';
+src: 	url('font/Maax-Sans-Regular.eot');
+src: 	url('font/Maax-Sans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Regular.woff2') format('woff2'),
+		url('font/Maax-Sans-Regular.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Maax Medium';
+src: 	url('font/Maax-Sans-Medium.eot');
+src: 	url('font/Maax-Sans-Medium.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Medium.woff2') format('woff2'),
+		url('font/Maax-Sans-Medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Maax Bold';
+src: 	url('font/Maax-Sans-Bold.eot');
+src: 	url('font/Maax-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Bold.woff2') format('woff2'),
+		url('font/Maax-Sans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Lydian Bold Italic';
+src: 	url('font/Lydian_Bold_Italic.ttf');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Lydian Italic';
+src: 	url('font/Lydian_Italic.ttf');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-feature-settings: "liga", "kern";
+	margin: 0;
+	/* background: #f0e6e2; */
+	background: radial-gradient(73% 147%, rgba(234, 223, 223, 1) 59%, rgba(236, 226, 223, 1) 100%),
+				radial-gradient(91% 146%, rgba(255, 255, 255,0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+ background-blend-mode: screen;
+}
+
+/* Headings */
+
+	h1 {
+		font: normal normal 700 1.8rem/200% 'Maax Bold';
+		color: #202020;
+	}
+
+		h1 img {
+			height: 24px;
+		}
+
+	h2 {
+		font: normal normal 400 2rem/180% 'Lydian Italic';
+		color: rgba(75, 75, 75, 1);
+	}
+
+	h4 {
+		margin: 0;
+		color: rgba(29, 229, 198, 1);
+	}
+
+/* Header & Navigation */
+
+	body > header:first-of-type * {
+		margin: 0;
+	}
+
+	body > header:first-of-type {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		padding: 0 100px;
+		margin: 10px 0 30px;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 20;
+	}
+
+	nav {
+		width: 80%;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: flex-end;
+	}
+
+	body > header:first-of-type ul {
+		width: 100%;
+		max-width: 180px;
+		display: flex;
+		flex-direction: row nowrap;
+		justify-content: space-between;
+		list-style: none;
+	}
+
+	body > header:first-of-type ul li {
+		font: normal normal 400 .8rem/200% 'Maax Regular';
+    	letter-spacing: 2px;
+		text-transform: uppercase;
+		color: rgba(80, 79, 82, 1);
+		transition: all .35s ease-in-out;
+	}
+
+
+	body > header:first-of-type ul li a {
+		text-decoration: none;
+		color: rgba(80, 79, 82, 1);
+		transition: all .3s ease-in-out;
+	}
+
+	body > header:first-of-type a:hover {
+		filter: blur(0px);
+		opacity: 1;
+	}
+
+	body > header:first-of-type a:hover {
+		filter: blur(3px);
+		opacity: .5;
+		cursor: pointer;
+		color: rgba(140, 100, 120, 1);
+	}
+
+
+
+/* Content */
+
+	main {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		padding: 0 50px;
+	}
+
+	main section:nth-child(1) {
+		height: 95vh;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: center;
+		flex: 0 0 100%;
+	}
+
+	main section:nth-child(1) p {
+		font: normal normal 400 2.2rem/180% 'Lydian Italic';
+		color: rgba(75, 75, 75, 1);
+		max-width: 800px;
+	}
+
+	main section:nth-child(1) p span {
+		font: normal normal 700 2.2rem/180% 'Lydian Bold Italic';
+		color: rgba(29, 229, 198, 1);
+	}
+
+	main article:first-of-type {
+		width: 100%;
+		flex: 0 0 100%;
+	}
+
+	main article:nth-child(5) {
+		width: 100%;
+		flex: 0 0 100%;
+	}
+
+	main article {
+		width: 49%;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		box-shadow: 0 25px 65px 5px rgba(201, 186, 181, .5);
+		transition: all .3s ease-in-out;
+		margin: 0 0 60px 0;
+	}
+
+	main article figure {
+		width: 100%;
+		margin: 0;
+		overflow: hidden;
+		border-radius: 2px;
+	}
+
+	main article:hover {
+		box-shadow: 0 15px 35px 2px rgba(201, 186, 181, 1);
+	}
+
+	main article figure img {
+		width: 100%;
+		filter: brightness(.75);
+		transition: all .3s ease-in-out;
+		transform: scale(1.1);
+	}
+
+	main article:hover figure img {
+		cursor: pointer;
+		filter: brightness(1);
+		transform: scale(1.15);
+	}
+
+	figcaption {
+		font: normal normal 400 .8rem/200% 'Maax Regular';
+		color: rgba(175, 175, 175, 1);
+		display: none;
+	}
+
+	hr {
+		border: none;
+		width: 100%;
+		height: 1px;
+		background: rgba(201, 186, 181, .15);
+		margin: 100px 0 0 0;
+	}
+
+/* Footsies */
+
+	footer {
+		box-sizing: border-box;
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: baseline;
+		padding: 0 50px;
+		margin: 0 0 50px 0;
+	}
+
+	footer ul {
+		list-style: none;
+		font: normal normal 400 .8rem/200% 'Maax Regular';
+		padding: 0;
+	}
+
+	footer a {
+		text-decoration: none;
+		color: rgba(75, 75, 75, 1);
+		font: normal normal 400 .8rem/200% 'Maax Regular';
+		transition: all .35s ease-in-out;
+	}
+
+	footer a:hover {
+		color: rgba(29, 229, 198, 1);
+	}
+
+
+/* The Media */
+
+@media only screen and (max-width: 700px) {
+	body > header:first-of-type {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		padding: 0 50px;
+		margin: 10px 0 30px;
+		flex-flow: column nowrap;
+		justify-content: baseline;
+		align-items: center;
+	}
+
+	nav {
+		align-items: center;
+		width: 100%;
+	}
+
+	nav ul {
+		padding: 0;
+	}
+
+	body > header:first-of-type ul li {
+		font: normal normal 400 .7rem/200% 'Maax Regular';
+	}
+
+	main {
+		margin: 0 0 50px 0;
+		padding: 0 50px;
+	}
+
+	main section:nth-child(1) p,
+	main section:nth-child(1) p span {
+		font: normal normal 400 1.4rem/180% 'Lydian Italic';
+	}
+
+	main article {
+		width: 100%;
+		flex: 0 0 100%;
+	}
+
+	footer {
+		padding: 0 50px;
+		margin: 0 0 50px 0;
+	}
+}

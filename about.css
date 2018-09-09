@@ -1,0 +1,104 @@
+@font-face {
+font-family: 'Maax Regular';
+src: 	url('font/Maax-Sans-Regular.eot');
+src: 	url('font/Maax-Sans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Regular.woff2') format('woff2'),
+		url('font/Maax-Sans-Regular.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Maax Medium';
+src: 	url('font/Maax-Sans-Medium.eot');
+src: 	url('font/Maax-Sans-Medium.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Medium.woff2') format('woff2'),
+		url('font/Maax-Sans-Medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Maax Bold';
+src: 	url('font/Maax-Sans-Bold.eot');
+src: 	url('font/Maax-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('font/Maax-Sans-Bold.woff2') format('woff2'),
+		url('font/Maax-Sans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Lydian Bold Italic';
+src: 	url('font/Lydian_Bold_Italic.ttf');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Lydian Italic';
+src: 	url('font/Lydian_Italic.ttf');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+main {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main header {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 600px;
+	margin: 100px 50px 20px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+main header img {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 100%;
+	box-shadow: 0 25px 65px 5px rgba(201, 186, 181, .70);
+}
+
+main article {
+	display: block;
+	column-count: 2;
+	column-gap: 50px;
+	max-width: 700px;
+}
+
+main article, main article:hover {
+	box-shadow: none;
+}
+
+main article p {
+	font: normal normal 300 .9rem/190% 'Maax Regular';
+	color: rgba(130, 130, 130, 1);
+	margin: 0 0 30px 0;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 700px) {
+	main article {
+		display: block;
+		column-count: 1;
+		column-gap: 50px;
+		max-width: 100%;
+	}
+
+	main article p {
+		text-align: left;
+	}
+
+}
